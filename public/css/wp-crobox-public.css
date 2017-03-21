@@ -1,0 +1,116 @@
+
+#popUp {
+  position: fixed;
+  z-index: 9999;
+  max-width: 350px;
+  min-height: 170px;
+  border: 7px solid #fff;
+  bottom: 10px;
+  margin-left: -425px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#popUp .footer {
+  font-size: 12px;
+  display: block;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#new span {
+  background: #fff;
+  position: absolute;
+  color: #1c8dc4;
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: -5px;
+}
+
+#popUp .close {
+  color: #464646;
+  right: 8px;
+  top: 0px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#popUp h2 {
+  font-size: 17px;
+  color: #464646;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+#body {
+  height: 1200px;
+  background: #eee;
+}
+
+#btn-section {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#popUp a.button {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+  position: relative;
+  width: 120px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 0;
+}
+
+#plus {
+  position: fixed;
+  z-index: 9999;
+  color: #fff;
+  bottom: 15%;
+  font-size: 15px;
+  margin-left: -425px;
+  -webkit-transition: all 1.25s ease;
+  -moz-transition: all 1.25s ease;
+  -o-transition: all 1.25s ease;
+  transition: all 1.25s ease;
+  cursor: pointer;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+#plus span {
+  position: absolute;
+  margin-top: 38px;
+  left: 10px;
+}
+#plus::after {
+  content: '';
+  display: block;
+  display: relative;
+  width: 100px;
+  margin-left: -60px;
+  height: 100px;
+  border-radius: 80px;
+}
+
+@media all and (max-width: 900px) {
+  #popUp {
+    margin-left: -425px;
+  }
+  #plus {
+    margin-left: 0px;
+  }
+}
