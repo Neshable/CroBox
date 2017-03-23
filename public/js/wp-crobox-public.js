@@ -17,9 +17,8 @@ jQuery(document).ready(function($) {
  		this.$doc = $(document);
  		this.$height = $(window).height();
  		this.$scrollPos = phpVars.scrollPos / 100;
- 		//phpVars.scrollPos
  	},
-
+ 	// Binding events
  	bindEvents: function() {
  		this.$plus.on("click", this.showPop.bind(this));
  		this.$close.on("click", this.closePop.bind(this));
@@ -31,6 +30,7 @@ jQuery(document).ready(function($) {
  		this.$plus.css("margin-left", "-425px");
  	},
 
+ 	// Closing the box
  	closePop: function() {
  		this.$popup.css("margin-left", "-425px");
  		this.$plus.css("margin-left", "0px");
@@ -40,8 +40,7 @@ jQuery(document).ready(function($) {
  		if (this.$doc.scrollTop() >= (this.$doc.height() - $(window).height()) * this.$scrollPos ) {
  			this.$plus.css("margin-left", "0px");
  			this.$popup.css("margin-left", "-425px");
- 			// For debuging vars
- 			console.log(this.$scrollPos);
+ 			// console.log(this.$scrollPos);
  		} else {
  			this.$plus.css("margin-left", "-425px");
  			this.$popup.css("margin-left", "-425px");
