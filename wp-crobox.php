@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       CroBox
  * Plugin URI:        http://neshable.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Smart and customizable pop-up box for WordPress. 
  * Version:           1.0.0
  * Author:            Nesho Sabakov
  * Author URI:        http://neshable.com
