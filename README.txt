@@ -51,6 +51,18 @@ To install a WordPress Plugin manually:
 5. Go to Plugins screen and find the newly uploaded Plugin in the list.
 6. Click Activate to activate it.
 
+== Frequently Asked Questions ==
+
+= A question that someone might have =
+
+
+== Screenshots ==
+
+1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
+the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
+directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
+(or jpg, jpeg, gif).
+2. This is the second screen shot
 
 == Changelog ==
 
@@ -59,4 +71,17 @@ To install a WordPress Plugin manually:
 - Customizable colors
 - Change button text, box text, add/edit footer and more.
 - Show popup box at user-selected scroll position.
+
+
+== Arbitrary section ==
+
+You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
+plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
+"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
+
+== A brief Markdown Example ==
+
+* Customizable text
+* Custom colors
+* Custom behaviour
 
