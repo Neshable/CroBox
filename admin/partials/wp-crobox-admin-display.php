@@ -34,6 +34,7 @@
         $options = get_option($this->plugin_name);
 
         $cta_text = $options['cta_text'];
+
         $main_switch = $options['main_switch'];
         $button_color = $options['button_color'];
         $pop_color = $options['pop_color'];
@@ -45,10 +46,7 @@
         $front_icon = $options['front_icon'];
         $scroll_position = $options['scroll_position'];
 
-        // Populate empty fields to keep form proportions
-        if (empty($cta_text)) {
-        	$cta_text = "We have special promotions running right now. Click the button below and find out more about them.";
-        }
+        // if (empty($cta_text)) { return $cta_text = 'This is the default text'; }
 
         settings_fields($this->plugin_name);
         do_settings_sections($this->plugin_name);

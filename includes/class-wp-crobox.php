@@ -46,6 +46,7 @@ class Wp_Crobox {
 	 * @access   protected
 	 * @var      string    $plugin_name    The string used to uniquely identify this plugin.
 	 */
+
 	protected $plugin_name;
 
 	/**
@@ -94,6 +95,7 @@ class Wp_Crobox {
 	 * @since    1.0.0
 	 * @access   private
 	 */
+
 	private function load_dependencies() {
 
 		/**
